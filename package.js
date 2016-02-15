@@ -1,6 +1,6 @@
 Package.describe({
   name: 'teamon:tinymce',
-  version: '4.3.3_1',
+  version: '4.3.3_2',
   summary: 'TinyMCE editor',
   git: 'https://github.com/teamOnHQ/tinymce.git',
 });
@@ -25,18 +25,17 @@ Package.onUse(function (api) {
     'plugins/link/plugin.min.js',
     'plugins/paste/plugin.min.js',
 
-    // skins
-    'skins/lightgray/content.inline.min.css',
-    'skins/lightgray/content.min.css', // modified
-    'skins/lightgray/skin.ie7.min.css',
-    'skins/lightgray/skin.min.css',
-
     // themes
     'themes/modern/theme.min.js',
   ], 'client');
 
   api.addAssets([
     // skins
+    'skins/lightgray/content.inline.min.css',
+    'skins/lightgray/content.min.css', // modified
+    'skins/lightgray/skin.ie7.min.css',
+    'skins/lightgray/skin.min.css',
+
     'skins/lightgray/fonts/tinymce-small.eot',
     'skins/lightgray/fonts/tinymce-small.svg',
     'skins/lightgray/fonts/tinymce-small.ttf',
