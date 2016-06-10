@@ -1,6 +1,6 @@
 Package.describe({
   name: 'teamon:tinymce',
-  version: '4.3.3_3',
+  version: '4.3.13',
   summary: 'TinyMCE editor',
   git: 'https://github.com/teamOnHQ/tinymce.git',
 });
