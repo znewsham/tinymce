@@ -56,6 +56,7 @@ Package.onUse(function (api) {
     'plugins/visualblocks/plugin.min.js',
     'plugins/visualchars/plugin.min.js',
     'plugins/wordcount/plugin.min.js',
+    'plugins/toc/plugin.min.js',
 
     // themes
     'themes/modern/theme.min.js',
