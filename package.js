@@ -1,6 +1,6 @@
 Package.describe({
   name: 'teamon:tinymce',
-  version: '4.3.13',
+  version: '4.5.14',
   summary: 'TinyMCE editor',
   git: 'https://github.com/teamOnHQ/tinymce.git',
 });
@@ -60,6 +60,7 @@ Package.onUse(function (api) {
 
     // themes
     'themes/modern/theme.min.js',
+    'themes/inlite/theme.min.js',
   ], 'client');
 
   api.addAssets([
