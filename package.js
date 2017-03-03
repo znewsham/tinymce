@@ -34,7 +34,6 @@ Package.onUse(function (api) {
     'plugins/imagetools/plugin.min.js',
     'plugins/importcss/plugin.min.js',
     'plugins/insertdatetime/plugin.min.js',
-    'plugins/layer/plugin.min.js',
     'plugins/legacyoutput/plugin.min.js',
     'plugins/link/plugin.min.js',
     'plugins/lists/plugin.min.js',
