@@ -62,7 +62,7 @@ Package.onUse(function(api) {
         // themes
         'themes/modern/theme.min.js',
         'themes/inlite/theme.min.js',
-    ], 'client');
+    ], 'client',{isImport: true});
 
     api.addAssets([
         // skins
@@ -84,5 +84,5 @@ Package.onUse(function(api) {
         'skins/lightgray/img/loader.gif',
         'skins/lightgray/img/object.gif',
         'skins/lightgray/img/trans.gif',
-    ], 'client');
+    ], 'client',{isImport: true});
 });
